@@ -45,18 +45,36 @@ body {
     background-color: #bce7fd ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-h1 {
-    margin: 0;
-}
 
 
-#myphoto {
+
+.myphoto {
 height: 450px;
 width:  350px;
-margin: 19px;
-margin-top: 110px;
-border-style: solid;
-border: 10px;
-border-color: #28536b;
+margin: 110px 10px 10px 20px;
+border: 15px solid #28536b;
 
+}
+
+.contactinfo {
+    position: absolute;
+    background-color: lightgrey;
+    width: 350px;
+    height: 200px;
+    border: 15px solid #28536b;
+    padding: 0px;
+    margin: 590px 0px 0px -2px;
+
+}
+
+h2 {
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 0px 10px 10px;
+    color: #28536b;
+}
+
+.links {
+    color: #28536b;
+    text-decoration: underline;
 }
