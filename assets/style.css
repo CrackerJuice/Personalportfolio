@@ -1,5 +1,8 @@
 
 .topnav {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
     display: block;
     padding: 30px; /* thickness of nav bar */
     background-color: #28536b;
@@ -11,9 +14,12 @@
 
 }
 .contacts {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
     float: left;
     color: #fdfb87;
-    margin-left: 1375px;
+    margin-left: 1360px;
     margin-top: 35px;
     text-decoration: none;
     font-size: 30px;
@@ -26,13 +32,16 @@
 
 }
 .projects {
-    float: left;
-    margin-left: 1200px;
-    margin-top: -35px; /* it finally worked to move it up :') */
-    color: #fdfb87;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+flex-direction: column;
+display: flex;
+flex-wrap: wrap;
+float: left;
+margin-left: 1170px;
+margin-top: -35px; /* it finally worked to move it up :') */
+color: #fdfb87;
+text-decoration: none;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
     
 }
@@ -41,14 +50,20 @@
 }
 
 body {
-    margin: 0px;
-    background-color: #bce7fd ;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+margin: 0px;
+background-color: #bce7fd ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 
 
 .myphoto {
+    flex-direction: column;
+display: flex;
+flex-wrap: wrap;
 height: 450px;
 width:  350px;
 margin: 110px 10px 10px 20px;
@@ -57,24 +72,78 @@ border: 15px solid #28536b;
 }
 
 .contactinfo {
+    flex-direction: column;
     position: absolute;
     background-color: lightgrey;
     width: 350px;
-    height: 200px;
+    height: 230px;
     border: 15px solid #28536b;
     padding: 0px;
-    margin: 590px 0px 0px -2px;
+    margin: 600px 0px 0px 20px;
 
 }
 
 h2 {
     list-style-type: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
     padding: 0px 0px 10px 10px;
     color: #28536b;
 }
 
+h5 {
+    color: #28536b;
+    font-size: 23px;
+    padding: 0px 0px 5px 5px;
+}
+
 .links {
     color: #28536b;
+    line-height: 2;
     text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px
+}
+
+.studyguide {
+    border: #28536b 15px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    width: 350px;
+    margin: -400px 10px 10px 530px;
+}
+
+.plink {
+    color: #28536b;
+    font-size: 30px;
+    margin: 10px 10px 10px 650px;
+}
+
+.horiseon {
+    border: #28536b 15px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    width: 350px;
+    margin: -422px 10px 10px 1030px;
+}
+.hlink {
+    color: #28536b;
+    font-size: 30px;
+    margin: 10px 10px 10px 1145px;
+
+}
+
+.pplink {
+    border: #28536b 15px solid;
+    height: 350px;
+    width: 350px;
+    margin: 90px 10px 10px 528px;
+}
+.passlink {
+    border: #28536b 15px solid;
+    height: 350px;
+    width: 350px;
+    margin: -430px 10px 27px 1030px;
 }
