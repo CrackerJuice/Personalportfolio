@@ -113,11 +113,10 @@ h5 {
     width: 350px;
     margin: -400px 10px 10px 530px;
 }
-
 .plink {
     color: #28536b;
-    font-size: 30px;
-    margin: 10px 10px 10px 650px;
+    font-size: 25px;
+    margin: 10px 10px 10px 590px;
 }
 
 .horiseon {
@@ -130,8 +129,8 @@ h5 {
 }
 .hlink {
     color: #28536b;
-    font-size: 30px;
-    margin: 10px 10px 10px 1145px;
+    font-size: 25px;
+    margin: 10px 10px 17px 1070px;
 
 }
 
@@ -139,11 +138,11 @@ h5 {
     border: #28536b 15px solid;
     height: 350px;
     width: 350px;
-    margin: 90px 10px 10px 528px;
+    margin: 90px 10px 10px 520px;
 }
-.passlink {
-    border: #28536b 15px solid;
-    height: 350px;
-    width: 350px;
-    margin: -430px 10px 27px 1030px;
+.ppghl {
+    color: #28536b;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 100px 10px 10px -315px;
 }
